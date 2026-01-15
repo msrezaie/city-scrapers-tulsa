@@ -93,16 +93,17 @@ spider_configs = [
         "board_id": "858",
         "location": default_location,
     },
-    {
-        "class_name": "TulokCityCouncilSpider",
-        "name": "tulok_city_council",
-        "agency": "Tulsa City Council",
-        "board_id": "899",
-        "location": {
-            "name": "4th Floor Room 411, One Technology Center",
-            "address": "175 E 2nd St, Tulsa, OK 74103",
-        },
-    },
+    # Removing since this agency overlaps with tulok_citycouncil
+    # {
+    #     "class_name": "TulokCityCouncilSpider",
+    #     "name": "tulok_city_council",
+    #     "agency": "Tulsa City Council",
+    #     "board_id": "899",
+    #     "location": {
+    #         "name": "4th Floor Room 411, One Technology Center",
+    #         "address": "175 E 2nd St, Tulsa, OK 74103",
+    #     },
+    # },
     {
         "class_name": "TulokCivilServiceSpider",
         "name": "tulok_civil_service",
